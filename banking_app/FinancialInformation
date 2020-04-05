@@ -1,0 +1,34 @@
+#ifndef FINANCIAL_INFORMATION_H
+#define FINANCIAL_INFORMATION_H
+#include <cmath>
+
+class FinancialInformation {
+    // public items
+    public:
+        void SetInitialBalance(double);
+        void SetInitialBalance();
+        void SetMonthlyDepositAmount(double);
+        void SetMonthlyDepositAmount();
+        void SetAnnualInterest(double);
+        void SetAnnualInterest();
+        void SetNumYears(int);
+        void SetNumYears();
+        double GetInitialBalance();
+        double GetMonthlyDepositAmount();
+        double GetAnnualInterest();
+        int GetNumYears();
+        double CalcAnnualInterestEarned(double, double, double, int);
+		double CalcYearEndBalance(double, double, double);
+
+    // private items
+    private:
+        double m_initialBalance;
+        double m_monthlyDeposit;
+        double m_annualInterest;
+        int m_numYears;
+        double m_monthlyInterestRate;
+
+};
+
+
+#endif  // FINANCIAL_INFORMATION_H
