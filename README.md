@@ -1,2 +1,8 @@
 # CS-210
 CS-210 C++ Class
+
+The Dual Clock application takes two clocks (12 hr and 24 hr) and allows the user to update minutes, seconds, or hours. The correct display is output to both on in the correct format. The code works, but has too many variables and could be significantly trimmed. This was my first C++ program and I will likely loop back and create a new, cleaner version of this, perhaps even with the actual time being fetched and updated while the user is interacting.
+
+The Financial Information application is a program that takes information from a user and calculates compound interest at a static rate. The information the user provides is an initial deposit, a monthly deposit, an interest rate, and a length of time (in full years) to invest. The output then displays the total and the total interest after each of those years to give the user an accurate understanding of how much interest they earned YOY and Total.
+
+The Zoo App program is an RFID number tracking program. This takes information from a .txt file and builds a vector of egg-laying and mammal animals. That vector can allow for adding animals or deleting them. It includes a significant amount of error handling built-in within both versions. The one with the Java function is more complete, but the Java function does not work very well. The C++ aspects should work smoothly and output the correct data. The save to file function should output the data in the correct format to be read at a a later date, giving the user the ability to store their information, end the program, and then recall that information next time they need to add something.
