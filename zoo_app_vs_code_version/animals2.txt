@@ -1,0 +1,12 @@
+HELLO
+000001Tick-Tock      Oviparous      Crocodile      20
+000002Fidget         Mammal         Bat            01
+000003Willy          Mammal         Whale          00
+000004Bailey         Mammal         Whale          01
+000005Goose Lee      Oviparous      Goose          00
+000006Honker         Oviparous      Goose          10
+000007Becky          Oviparous      Goose          10
+000008Nigel          Oviparous      Pelican        00
+000009Fluke          Mammal         SeaLion        00
+000010Rudder         Mammal         SeaLion        01
+000011Bartok         Mammal         Bat            01
